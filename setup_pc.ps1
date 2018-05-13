@@ -3,10 +3,12 @@
 # All my favorite apps
 
 #--- Basics ---
-choco install googledrive
-choco install steam
-choco install spotify 
-# choco install f.lux 
+choco install -y googledrive
+choco install -y steam
+choco install -y spotify 
+# choco install -y f.lux 
+choco install -y r.studio
+choco install -y office365homepremium 
 
 #--- Tools ---
 choco install -y vscode
@@ -25,16 +27,13 @@ choco install audacity
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
 choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 
-#--- Ubuntu ---
-# Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.appx -UseBasicParsing
-# Add-AppxPackage -Path ~/Ubuntu.appx
-
 #--- Browsers ---
 choco install -y Firefox
 choco install -y Googlechrome
 
 #--- Fonts ---
 choco install -y inconsolata
+choco install -y firacode 
 # choco install -y ubuntu.font
 
 #--- Tools ---
